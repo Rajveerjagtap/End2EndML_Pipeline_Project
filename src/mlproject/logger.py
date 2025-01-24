@@ -15,3 +15,10 @@ logging.basicConfig(
     format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO
 )
+
+# ### Create a logger
+# logger = logging.getLogger("mlproject_logger")
+# logger.setLevel(logging.INFO)
+# ch = logging.StreamHandler()
+# ch.setLevel(logging.INFO)
+# formatter = logging.Formatter("[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s")
