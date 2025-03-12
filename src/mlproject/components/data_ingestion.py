@@ -19,7 +19,6 @@ class DataIngestion:
     
     def initiate_data_ingestion(self):
         try:
-            ##reading data from mysql
             df=read_sql_data()
             logging.info("Data Ingestion method starts")
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
