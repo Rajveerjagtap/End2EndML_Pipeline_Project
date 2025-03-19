@@ -32,7 +32,7 @@ def read_sql_data():
         logging.info(f"Connection Established: {mydb}")
         df=pd.read_sql_query('Select * from Students',mydb)
         print(df.head())
-
+##new updated 
         return df
 
     except Exception as ex:
