@@ -1,6 +1,10 @@
 numpy
 pandas
 python-dotenv
+matplotlib
 mysql-connector-python
 pymysql
 scikit-learn
+seaborn
+catboost
+xgboost
